@@ -1,0 +1,8 @@
+{
+  "name": "zadanie_rekrutacyjne",
+  "version": "1.0.0",
+  "description": "Repozytorium z przykładowymi zadaniami rekrutacyjnymi",
+  "devDependencies": {
+    "cypress": "^13.6.0"
+  }
+}

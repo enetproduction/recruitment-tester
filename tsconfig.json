@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "ES5",
+    "lib": ["DOM", "ES2020"],
+    "types": ["cypress", "node"],
+    "noEmit": true,
+    "strict": true,
+    "strictNullChecks": false
+  },
+  "skipLibCheck": true,
+  "resolveJsonModule": true,
+  "esModuleInterop": true,
+  "allowUmdGlobalAccess": true,
+  "allowJs": true,
+  "checkJs": true,
+  "include": ["**/*.ts"],
+  "exclude": ["node_modules"]
+}

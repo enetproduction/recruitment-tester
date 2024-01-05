@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "target": "ES5",
+    "target": "ES6",
     "lib": ["DOM", "ES2020"],
     "types": ["cypress", "node"],
     "noEmit": true,

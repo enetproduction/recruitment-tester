@@ -13,13 +13,19 @@ class LoginPage {
     this.selectors.loginButton().click();
   }
 
-  public loginWithIncorrectPassword(username: string, incorrectPassword: string): void {
+  public loginWithIncorrectPassword(
+    username: string,
+    incorrectPassword: string,
+  ): void {
     this.selectors.usernameInput().type(username);
     this.selectors.passwordInput().type(incorrectPassword);
     this.selectors.loginButton().click();
   }
 
-  public loginWithCorrectPassword(username: string, correctPassword: string): void {
+  public loginWithCorrectPassword(
+    username: string,
+    correctPassword: string,
+  ): void {
     this.selectors.usernameInput().type(username);
     this.selectors.passwordInput().type(correctPassword);
     this.selectors.loginButton().click();

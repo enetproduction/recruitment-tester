@@ -1,7 +1,7 @@
 declare global {
   namespace Cypress {
     interface Chainable {
-         openPage: typeof openPage;
+      openPage: typeof openPage;
     }
   }
 }

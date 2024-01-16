@@ -5,7 +5,8 @@
     "types": ["cypress", "node"],
     "noEmit": true,
     "strict": true,
-    "strictNullChecks": false
+    "strictNullChecks": false,
+    "moduleResolution": "Node"
   },
   "skipLibCheck": true,
   "resolveJsonModule": true,

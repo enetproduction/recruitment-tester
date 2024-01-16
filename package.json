@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "Repozytorium z przykładowymi zadaniami rekrutacyjnymi",
   "devDependencies": {
-    "@typescript-eslint/eslint-plugin": "^6.14.0",
-    "@typescript-eslint/parser": "^6.14.0",
+    "@typescript-eslint/eslint-plugin": "^6.18.0",
+    "@typescript-eslint/parser": "^6.18.0",
     "cypress": "^13.6.0",
     "cypress-eslint-preprocessor": "^1.2.2",
     "eslint": "^8.55.0",
@@ -16,5 +16,8 @@
     "lint": "eslint '**/*.ts'",
     "cypress:open": "npx cypress open",
     "prettier:format": "prettier --write ."
+  },
+  "prettier": {
+    "singleQuote": true
   }
 }

@@ -1,0 +1,1 @@
+## Jest to baza pytań dla release testera

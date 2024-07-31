@@ -6,14 +6,3 @@ Twoim zadaniem jest stworzenie testu automatycznego w Cypress na podstawie poni�
 4. Wpisz wybraną nazwę użytkownika w input “Username”
 5. Stwórz asercję, która potwierdzi, że wpisana wartość w inpucie “Username” to wybrana wartość w kroku 3.
 */
-
-describe('Test 1', () => {
-  it('Scenariusz 1', () => {
-    const testArray = ['Test1', 'test2']
-    testArray.push('Test3')
-
-    testArray = ['Teeeeeeeeest13213']
-  })
-
-
-})
